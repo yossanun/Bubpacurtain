@@ -1,0 +1,270 @@
+/*bubpha*/
+/* ----------------------------------------------------------------
+    TEMPLATE FONTS
+-----------------------------------------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,300i);
+@font-face {
+    font-family: 'kanitmedium';
+    src: url('../fonts/kanit-medium-webfont.woff2') format('woff2'),
+         url('../fonts/kanit-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+@font-face {
+    font-family: 'kanitregular';
+    src: url('../fonts/kanit-regular-webfont.woff2') format('woff2'),
+         url('../fonts/kanit-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+/* ----------------------------------------------------------------
+    BODY
+-----------------------------------------------------------------*/
+body {padding: 0;margin:0; overflow-x: hidden; background-color: #231f20; color: #9d865d}
+.img-responsive { margin: 0 auto;}
+.center {margin:0 auto; text-align: center;}
+.left {text-align: left;}
+
+section.page--bubpha.header {
+    background-image: url(#);
+    background-position: no-repeat;
+    height: 610px;
+    max-height: 610px;
+    padding: 40px 0;
+    overflow: hidden;
+    background-size: cover;
+}
+section.page--bubpha.header .toptitle{
+  width: 80%;
+  margin:3% auto;
+  height: auto;
+}
+section.page--bubpha.header .toptitle h1.logo{
+  text-align: center;
+  width: 100%;
+  margin:30px auto;
+}
+section.page--bubpha.header .toptitle h1.logo img {
+  width: 40%;
+}
+section.page--bubpha.header .toptitle h2{
+  font-family: "kanitregular", "Open Sans", "Tahoma", "Arial", sans-serif;
+  font-size: 4.5rem;
+  text-align: center;
+  margin:0 auto;
+  color: #b99656;
+  line-height: 1.3;
+  font-weight: normal;
+  font-weight: bold;
+  width: 100%;
+}
+section.page--bubpha.header .toptitle h3{
+  font-family: "kanitregular", "Open Sans", "Tahoma", "Arial", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin:0 auto;
+  color: #fff;
+  line-height:1;
+  background:#9d865d;
+  font-weight: normal;
+  border-radius: 30px;
+  padding: 16px 20px;
+  width: 70%;
+}
+section.page--bubpha.header .toptitle p {
+  font-family: "kanitregular", "Open Sans", "Tahoma", "Arial", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin:0 auto;
+  color: #fff;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 3% auto;
+  width: 90%; 
+}
+section.page--bubpha.header .photo {
+  margin-top: 10%;
+  text-align: center;
+}
+
+/*about*/
+section.page--bubpha.about-bubpha {
+    background-image: url();
+    height: auto;
+    max-height: auto;
+    padding:40px 0;
+    overflow: hidden;
+    background:#fff;
+    min-height: 300px;
+}
+section.page--bubpha.about-bubpha .allcontent {width: 100%;float: left;margin:30px auto;}
+section.page--bubpha.about-bubpha h1{
+  font-family: "kanitregular", "Open Sans", "Tahoma", "Arial", sans-serif;
+  font-size: 3.8rem;
+  text-align: center;
+  margin:0 auto;
+  color: #b99656;
+  line-height: 1.3;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+section.page--bubpha.about-bubpha h2 {
+  font-family: "kanitregular", "Open Sans", "Tahoma", "Arial", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin:0 auto;
+  color: #000;
+  line-height: 1.5;
+  font-weight: normal;
+  margin:20px auto;
+  width: 80%;  
+}
+section.page--bubpha.about-bubpha p {
+  font-family: "kanitregular", "Open Sans", "Tahoma", "Arial", sans-serif;
+  font-size: 17px;
+  text-align: center;
+  margin:0 auto;
+  color: #000;
+  line-height: 1.3;
+  font-weight: normal;
+  margin:20px 0;  
+  width: 100%;
+  float: left;
+}
+section.page--bubpha.about-bubpha .box--allphoto {
+  width: 90%;
+  margin:1% auto;
+}
+section.page--bubpha.about-bubpha .box--allphoto ul {
+  width: 100%;
+  vertical-align: top;list-style: none;
+  padding:0;margin:0;
+  justify-content: center!important;
+  display: flex;
+}
+section.page--bubpha.about-bubpha .box--allphoto ul li {
+  display: inline-block;
+  width: 20%;
+  list-style: none;
+  border-radius: 10px;
+  border: 3px #ac9c82 solid;
+  margin: 5px;
+}
+section.page--bubpha.about-bubpha .box--allphoto ul li img {width: 100%;height: 100%;margin:0 auto; text-align: center;border-radius: 10px;}
+
+/*footer*/
+section.page--bubpha.footer {
+    height: auto;
+    max-height: auto;
+    padding:25px 0 0 0;
+    overflow: hidden;
+    background:#ac9c82;
+}
+section.page--bubpha.footer h1{
+  font-family: "kanitregular", "Open Sans", "Tahoma", "Arial", sans-serif;
+  font-size: 30px;
+  text-align: left;
+  margin:0 auto;
+  color: white;
+  line-height:1;
+  font-weight: normal;
+  padding:0 0 20px 0;
+}
+section.page--bubpha.footer p {
+  font-family: "kanitregular", "Open Sans", "Tahoma", "Arial", sans-serif;
+  font-size: 16px;
+  text-align: left;
+  margin:0 auto;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: normal;
+  margin:0 0 0 20%;  
+}
+section.page--bubpha.footer ul {
+  width: 100%;float: left;
+  vertical-align: top;list-style: none;
+  padding:0;margin:30px 0 70px 0;
+}
+section.page--bubpha.footer ul li.first {
+  display: inline-block;float: left;width: 30%;
+  list-style: none;
+}
+section.page--bubpha.footer ul li {
+  display: inline-block;float: left;width: 23%;
+  list-style: none;
+}
+section.page--bubpha.footer ul li img {
+    width: 20%;
+    margin: 0 10px;
+    text-align: left;
+    padding:0;
+    float: left;
+}
+section.page--bubpha.footer .copyright{
+  width: 100%;float: left;background:#ac9c82;
+  padding: 10px 15px;
+}
+section.page--bubpha.footer .copyright p {
+  font-family: "kanitregular", "Open Sans", "Tahoma", "Arial", sans-serif;
+  font-size: 13px;
+  text-align: center;
+  margin:0 auto;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: normal;
+  margin:10px 0;  
+}
+section.page--bubpha.footer .copyright p span {color:black;}
+section.page--bubpha.footer p a {color: #fff;text-decoration: none;}
+section.page--bubpha.footer p a:hover{color:#d31321;text-decoration:none;}
+
+@media (max-width: 1024px) {
+  section.page--bubpha.header .toptitle {width: 90%;}
+  section.page--bubpha.footer p {font-size: 13px}
+}
+@media (max-width: 800px) {
+  section.page--bubpha.header {height: auto;}
+  section.page--bubpha.header .toptitle {width: 100%;}
+  section.page--bubpha.header .toptitle h3 {width: 90%;}
+  section.page--bubpha.footer ul li.first, section.page--bubpha.footer ul li {width: 50%;margin:1% 0;}
+  section.page--bubpha.footer .copyright{
+    padding: 20px 0;
+    margin: 0 auto;
+    float: none;
+    width: 80%;}
+}
+@media (max-width: 600px) {
+  section.page--bubpha.header .toptitle h1.logo img {width: 55%;}
+  section.page--bubpha.header .toptitle p {width: 100%;} 
+  section.page--bubpha.header .toptitle h2 {font-size: 3.5rem;}
+  section.page--bubpha.header .toptitle h3 {width: 100%;font-size: 20px;}
+  section.page--bubpha.about-bubpha .allcontent {width: auto;margin:0 15px;}
+  section.page--bubpha.about-bubpha h2 {width: 100%;}
+  section.page--bubpha.about-bubpha .box--allphoto {width: auto;margin:1% 20px;} 
+  section.page--bubpha.about-bubpha .box--allphoto ul {display: inline-block;}
+  section.page--bubpha.about-bubpha .box--allphoto ul li {width: 45%;margin:5px 10px;}
+  section.page--bubpha.footer ul {margin:0 0 30px 0;}
+}
+@media (max-width: 480px) {
+  section.page--bubpha.header .toptitle h2 {font-size: 3rem;font-size: 22px;}
+  section.page--bubpha.header .toptitle h3 {font-size: 16px;}
+  section.page--bubpha.about-bubpha h1 {font-size: 3rem;}
+  section.page--bubpha.about-bubpha .allcontent {margin:0;}
+  section.page--bubpha.about-bubpha p {font-size: 14px;}
+  section.page--bubpha.footer .copyright p {font-size: 12px;}
+}
+@media (max-width: 414px) {
+  section.page--bubpha.header .toptitle h1.logo {margin: 0 auto 30px auto;}
+  section.page--bubpha.about-bubpha h1 {font-size: 2.6rem;}
+  section.page--bubpha.header .toptitle p {font-size: 16px;}
+  section.page--bubpha.header .toptitle h3 {font-size: 13px;}
+  section.page--bubpha.about-bubpha h2 {font-size: 16px;}
+  section.page--bubpha.about-bubpha p {font-size: 14px;} 
+  section.page--bubpha.about-bubpha .box--allphoto ul li {width: 100%;margin:5px 0;}
+  section.page--bubpha.footer ul li.first, section.page--bubpha.footer ul li {width: 100%;margin:8px 0;}
+  section.page--bubpha.footer ul li img {width: 8%;}
+  section.page--bubpha.header {background-image: url(../images/bg-topheader-mobile.jpg);}
+}
+@media (max-width: 320px) {
+  section.page--bubpha.header .toptitle h3{padding:10px 15px;font-size: 16px;}
+  section.page--bubpha.about-bubpha h1 {font-size: 2.2rem;}
+}
+
